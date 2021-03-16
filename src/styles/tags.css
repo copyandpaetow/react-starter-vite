@@ -1,0 +1,23 @@
+p,
+a,
+i,
+li,
+textarea,
+select {
+  font-size: var(--base-1x);
+  line-height: 150%;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
